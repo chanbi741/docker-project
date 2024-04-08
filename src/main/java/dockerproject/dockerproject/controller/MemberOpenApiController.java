@@ -19,4 +19,9 @@ public class MemberOpenApiController {
     public String hello(){
         return "Hello~";
     }
+
+    @GetMapping("/chanhee")
+    public String chanhee(){
+        return "Chanhee~";
+    }
 }
